@@ -27,12 +27,11 @@ public class Inventory {
 	
 	public void print()
 	{
-		System.out.println("*** Inventory.print START ***");
+		
 		for(int i = 0;i<itemList.size();i++)
 		{
 			System.out.println(itemList.get(i).toString());
 		}
-		System.out.println("*** Inventory.print END ***");
 	}
 	public void addItemQuantity(String code,int quantity)
 	{
